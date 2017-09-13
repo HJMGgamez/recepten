@@ -1,3 +1,60 @@
-#p01 {
-    color: blue;
+.p01 {
+    color: rgb(0, 0, 173);
+}
+.box {
+	width:300px;
+	background-color: transparent;
+	 border: 1px solid transparent;
+}
+.body {
+	margin: 5px;
+}
+img	{
+	float: right;
+}
+body {
+	background-color: #58FAF4;
+}
+h2 {
+	color:blue;
+}
+a:link {
+    color: rgb(0, 56, 255); 
+    background-color: transparent; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(0, 56, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.a {
+	grid-column:1;
+	grid-row:1;
+}
+
+.b {
+	grid-column:2;
+	grid-row:1;
+}
+
+.grid {
+	display: grid;
+	grid-culumns:300px;
+	grid-auto-row:300px;
+	grid-gap:10px;
 }
